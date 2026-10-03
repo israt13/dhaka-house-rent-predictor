@@ -31,7 +31,7 @@ Gradient Boosting shobcheye bhalo, average error proay 3,300 taka/month. Tobe Li
 
 Charts: `charts/` folder e (![Size vs Rent](charts/size_vs_rent.png)
 ![Rent by location](charts/rent_by_location.png)
-![Feature importance](charts/feature_importance.png)).
+![Feature importance](charts/feature_importance.png) ![Feature importance](charts/feature_importance.png)).
 
 ## Limitations
 - Eta listing rent, actual agreed rent na.

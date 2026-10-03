@@ -2,13 +2,13 @@
 
 A machine learning project that predicts monthly house rent in Dhaka from size, bedrooms, bathrooms and location, with a live web app.
 
-**Live demo:** (Streamlit Cloud link ekhane dao)
+**Live demo:** ([Streamlit Cloud link ekhane dao](https://dhaka-rent-predictor.streamlit.app/))
 
 ## Problem
 Dhaka te onek manush bhara bari te thake, kintu fair bhara koto hoa uchit seta bujhar shohoj upay nai. Ei project listing data theke bhara estimate kore.
 
 ## Data
-- Source: Kaggle "Dhaka House Rent" dataset (bproperty.com theke scrape kora) - link ekhane dao
+- Source: Kaggle "Dhaka House Rent" dataset (bproperty.com theke scrape kora) - https://www.kaggle.com/datasets/taeefnajib/house-rent-in-dhaka-city
 - Rows: 28,800 original; 13,541 hubohu duplicate row remove kora hoy, outlier (choto/boro 1% rent ar area) bad dewar por 14,711 row e model train hoy
 - Columns: Location, Area (sqft), Bed, Bath, Price (monthly rent)
 
@@ -29,7 +29,9 @@ Test set (20% data) er upor:
 
 Gradient Boosting shobcheye bhalo, average error proay 3,300 taka/month. Tobe Linear Regression o kachakachi (R2 0.80), mane size ar location diyei bhara er onek ta bojha jay.
 
-Charts: `charts/` folder e (rent distribution, size vs rent, rent by location, feature importance).
+Charts: `charts/` folder e (![Size vs Rent](charts/size_vs_rent.png)
+![Rent by location](charts/rent_by_location.png)
+![Feature importance](charts/feature_importance.png)).
 
 ## Limitations
 - Eta listing rent, actual agreed rent na.

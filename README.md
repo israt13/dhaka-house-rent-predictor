@@ -2,7 +2,7 @@
 
 A machine learning project that predicts monthly house rent in Dhaka from size, bedrooms, bathrooms and location, with a live web app.
 
-**Live demo:** ([Streamlit Cloud link ekhane dao](https://dhaka-rent-predictor.streamlit.app/))
+**Live demo:** https://dhaka-rent-predictor.streamlit.app/
 
 ## Problem
 Dhaka te onek manush bhara bari te thake, kintu fair bhara koto hoa uchit seta bujhar shohoj upay nai. Ei project listing data theke bhara estimate kore.
